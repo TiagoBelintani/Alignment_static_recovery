@@ -67,9 +67,9 @@ Argument	Description
 ```
 
 Output files
-
+```bash
 Main CSV
-
+```
 Per-taxon statistics including:
 
 number of alignments
@@ -80,17 +80,20 @@ missing data statistics
 Alignment summary CSV
 
 Statistics per alignment:
-
+```bash
 number of taxa
 alignment length
 number of informative sites
 Plots (optional)
+```
 
 If --plots is enabled, the script generates:
 
+```bash
 alignments per taxon
 mean gap fraction per taxon
 mean informative sites per taxon
+```
 
 Example workflow
 
