@@ -31,9 +31,11 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
 Usage
 
 Basic usage:
+
 ```bash
 python recover_overall_stats.py \
 --input alignments_folder \
@@ -41,7 +43,8 @@ python recover_overall_stats.py \
 ```
 
 Example with plots:
-````bash
+
+```bash
 python recover_overall_stats.py \
 --input alignments \
 --output stats.csv \
@@ -62,6 +65,7 @@ Argument	Description
 --plots-dir	Directory for plots
 --min-taxa	Minimum taxa per column to test informative sites
 ```
+
 Output files
 
 Main CSV
@@ -87,12 +91,15 @@ If --plots is enabled, the script generates:
 alignments per taxon
 mean gap fraction per taxon
 mean informative sites per taxon
+
 Example workflow
 
+```bash
 python recover_overall_stats.py \
 --input matrix_95_ocup \
 --output stats_geral.csv \
 --plots
+```
 
 License
 
